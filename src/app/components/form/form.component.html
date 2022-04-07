@@ -1,0 +1,13 @@
+
+<section>
+  <form [formGroup]="myForm" (submit)="submitForm()">
+    <mat-form-field>
+      <mat-label>La tua email</mat-label>
+      <input type="email" matInput formControlName="email">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit">
+      Invia
+    </button>
+  </form>
+</section>

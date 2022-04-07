@@ -1,0 +1,9 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mat-form-field {
+  margin-right: 20px;
+}
